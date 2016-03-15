@@ -46,11 +46,11 @@ frameworks.
 
 %prep
 %setup -q
-%patch0 -p1
+%apply_patches
+%cmake_kde5
 
 %build
-%cmake_kde5
-%make
+%ninja -C build
 
 %install
-%makeinstall_std -C build
+%ninja_install -C build
