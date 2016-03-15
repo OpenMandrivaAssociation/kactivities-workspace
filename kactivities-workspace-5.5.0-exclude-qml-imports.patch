@@ -1,0 +1,10 @@
+diff -urN kactivities-workspace-5.5.0/src/workspace/CMakeLists.txt kactivities-workspace-5.5.0-patched/src/workspace/CMakeLists.txt
+--- kactivities-workspace-5.5.0/src/workspace/CMakeLists.txt	2016-03-09 03:37:35.000000000 +1000
++++ kactivities-workspace-5.5.0-patched/src/workspace/CMakeLists.txt	2016-03-15 21:49:42.374345122 +1000
+@@ -1,6 +1,5 @@
+ # vim:set softtabstop=3 shiftwidth=3 tabstop=3 expandtab:
+ 
+-add_subdirectory (imports)
+ add_subdirectory (fileitemplugin)
+ add_subdirectory (kio)
+ 
