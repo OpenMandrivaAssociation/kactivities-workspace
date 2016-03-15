@@ -41,7 +41,12 @@ for interacting with that daemon, and plugins for integration with other
 frameworks.
 
 %files
-%{_qt5_plugindir}/kio_activities.so
+%{_qt5_plugindir}/*.so
+%{_libdir}/qt5/qml/org/kde/activities/settings/*.so
+%{_libdir}/qt5/qml/org/kde/activities/settings/qmldir
+%{_datadir}/kf5/kactivitymanagerd
+%{_datadir}/kservicetypes5/*
+
 #----------------------------------------------------------------------------
 
 %prep
