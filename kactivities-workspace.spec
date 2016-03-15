@@ -45,7 +45,7 @@ frameworks.
 %{_libdir}/qt5/qml/org/kde/activities/settings/*.so
 %{_libdir}/qt5/qml/org/kde/activities/settings/qmldir
 %{_datadir}/kf5/kactivitymanagerd
-%{_datadir}/kservicetypes5/*
+%{_datadir}/kservices5/*
 
 #----------------------------------------------------------------------------
 
