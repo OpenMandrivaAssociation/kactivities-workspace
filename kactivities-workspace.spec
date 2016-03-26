@@ -1,3 +1,4 @@
+%define stable %([ "`echo %{version} |cut -d. -f3`" -ge 80 ] && echo -n un; echo -n stable)
 Summary: Plasma 5 user work in separate activities support files
 Name: kactivities-workspace
 Version: 5.5.0
@@ -5,7 +6,7 @@ Release: 1
 License: GPLv2+
 Group: Graphical desktop/KDE
 Url: https://www.kde.org/
-Source0: ftp://ftp.kde.org/pub/kde/stable/kactivities/%{name}-%{version}.tar.xz
+Source0: http://download.kde.org/%{stable}/kactivities/%{name}-%{version}.tar.xz
 # These QML imports are in KF kactivities package
 Patch0: kactivities-workspace-5.5.0-exclude-qml-imports.patch
 BuildRequires: cmake(ECM)
