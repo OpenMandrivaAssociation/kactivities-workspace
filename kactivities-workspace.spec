@@ -2,7 +2,7 @@
 Summary: Plasma 5 user work in separate activities support files
 Name: kactivities-workspace
 Version: 5.5.0
-Release: 1
+Release: 2
 License: GPLv2+
 Group: Graphical desktop/KDE
 Url: https://www.kde.org/
